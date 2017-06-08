@@ -8,3 +8,20 @@ body{
   margin: 0;
   text-align: center;
 }
+
+.movie-thumb{
+  width: 200px;
+  height: 300px;
+}
+
+.movie{
+  display: block;
+  float: left;
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(82, 74, 85);
+}
+
+.movieContainer{
+  clear: both;
+}
