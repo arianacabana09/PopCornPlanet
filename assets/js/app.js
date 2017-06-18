@@ -1,8 +1,4 @@
 'use strict';
-//
-// $( () => {
-//   alert("holaaaa");
-// });
 
 const render = (root) => {
   root.empty();
@@ -23,7 +19,7 @@ const render = (root) => {
 
 const state = {
   movies: movies,
-  selectedMovie: null;
+  selectedMovie: null
 }
 
 $( _ => {

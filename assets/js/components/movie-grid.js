@@ -1,10 +1,10 @@
-use strict
+'use strict';
 
 const movieItem = (movie,update) => {
   const item = $('<a href="#" class="movie"></a>');
-  const image = $('<img class="movie-thumb" src="${movie.thumb}" alt="$(movie.title)">');
+  const image = $(`<img class="movie-thumb" src="${movie.thumb}" alt="${movie.title}"/>`);
 
-  const p = $('<p>' + movie.title + '</p>');
+  const p = $('<p>'+ movie.title +'</p>');
 
   item.append(image);
   item.append(p);

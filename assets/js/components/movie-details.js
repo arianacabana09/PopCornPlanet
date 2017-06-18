@@ -3,7 +3,7 @@
 const MovieDetails = (update) => {
   const container = $('<div class="movieDetail"></div>');
   const title = $('<h1>'+state.selectedMovie.title+'</h1>');
-  const button = $('<button>Regresar</button>')
+  const button = $('<button>Regresar</button>');
   container.append(title);
   container.append(button);
 
@@ -11,7 +11,7 @@ const MovieDetails = (update) => {
     e.preventDefault();
     state.selectedMovie = null;
     update();
-  })
+  });
 
   return container;
 }
