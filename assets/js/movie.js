@@ -1,9 +1,8 @@
-// moovie.js
-[{
-  "title":"Wonder Woman",
-  "thumb": "url.jpg"
+const movies = [{
+  title: "Wonder Woman",
+  thumb: "https://k46.kn3.net/taringa/1/A/9/A/7/2/freddycasto79/407.jpg"
 },
 {
-  "title":"Piratas del Caribe",
-  "thumb": "url.jpg"
+  title:"Piratas del Caribe",
+  thumb: "http://tbsila.cdn.turner.com/tbsila/tntla/images/10192/543353/g/pirates-of-the-caribbean-facebook-piratesofthecaribbean.jpg"
 }];
